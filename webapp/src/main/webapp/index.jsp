@@ -1,3 +1,5 @@
+<%@ page import="java.io.*,java.util.*" %>
+<%@ page import="javax.servlet.*,java.text.*" %>
 <html>
 <head><title>Hello World</title></head>
 <body>
@@ -14,7 +16,7 @@
 <%
    Date dNow = new Date();
    SimpleDateFormat ft = new SimpleDateFormat ("E yyyy.MM.dd 'at' hh:mm:ss a zzz");
-   out.println( "<h2 align=\"center\">" + ft.format(dNow) + "</h2>");
+   out.print( "<h2 align=\"center\">" + ft.format(dNow) + "</h2>");
 %>
 </body>
 </html>
