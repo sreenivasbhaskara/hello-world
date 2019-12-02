@@ -17,5 +17,6 @@
    SimpleDateFormat ft = new SimpleDateFormat ("E yyyy.MM.dd 'at' hh:mm:ss a zzz");
    out.print( "<h2 align=\"left\">" + ft.format(dNow) + "</h2>");
 %>
+<h2> Deploying on Container</h2>
 </body>
 </html>
